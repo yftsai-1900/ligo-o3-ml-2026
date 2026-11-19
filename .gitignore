@@ -1,0 +1,39 @@
+# 機密
+.env
+
+# Python 環境與快取
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LIGO 資料與模型
+data/
+models/
+*.hdf5
+*.h5
+*.gwf
+*.ckpt
+*.pt
+*.pth
+
+# 訓練紀錄
+wandb/
+lightning_logs/
+runs/
+mlruns/
+
+# 工具快取
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# 系統與編輯器
+.DS_Store
+Thumbs.db
+.idea/
